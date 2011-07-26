@@ -1,8 +1,8 @@
-== Instantiator ==
+## Instantiator
 
 I want to be able to instantiate an arbitrary Ruby class without knowing anything about the constructor.
 
-=== Usage ===
+### Usage
 
     class ArbitraryClass
       def initialize(arg1, arg2, *other_args)
