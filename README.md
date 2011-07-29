@@ -2,6 +2,8 @@
 
 I want to be able to instantiate an arbitrary Ruby class without knowing anything about the constructor.
 
+The initial requirement for this has come from my [Introspection](https://github.com/floehopper/introspection) project.
+
 ### Usage
 
     class ArbitraryClass
