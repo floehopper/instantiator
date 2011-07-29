@@ -192,4 +192,9 @@ class InstantiatorTest < Test::Unit::TestCase
     assert_equal klass, instance.class
   end
 
+  def test_should_instantiate_class_which_defines_its_own_native_new_method_with_some_required_parameters_and_some_optional
+    require "strscan"
+    instance = StringScanner.instantiate
+  end
+
 end
