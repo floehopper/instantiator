@@ -197,4 +197,9 @@ class InstantiatorTest < Test::Unit::TestCase
     instance = StringScanner.instantiate
   end
 
+  def test_should_raise_exception_if_instantiating_class_is_unsupported
+    e = assert_raises(Instantiator::Error) { Proc.instantiate }
+    assert_equal "Proc.instantiate is not yet supported", e.message
+  end
+
 end
