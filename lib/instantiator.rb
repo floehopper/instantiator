@@ -1,4 +1,5 @@
 require "instantiator/version"
+require "backports"
 require "blankslate"
 
 module Instantiator
