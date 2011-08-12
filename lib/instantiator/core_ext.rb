@@ -1,0 +1,1 @@
+require "instantiator/core_ext/symbol"

@@ -1,5 +1,5 @@
 require "instantiator/version"
-require "instantiator/symbol"
+require "instantiator/core_ext"
 require "blankslate"
 
 module Instantiator
