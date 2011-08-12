@@ -18,4 +18,6 @@ Gem::Specification.new do |s|
   s.require_paths = ["lib"]
 
   s.add_dependency("blankslate")
+
+  s.add_development_dependency("rake")
 end
