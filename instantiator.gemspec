@@ -24,5 +24,7 @@ Gem::Specification.new do |s|
   else
     s.add_development_dependency "rake"
   end
-  s.add_development_dependency "test-unit"
+  if RUBY_VERSION > '2.2'
+    s.add_development_dependency "test-unit"
+  end
 end
