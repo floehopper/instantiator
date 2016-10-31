@@ -19,5 +19,9 @@ Gem::Specification.new do |s|
 
   s.add_dependency("blankslate")
 
-  s.add_development_dependency("rake")
+  if RUBY_VERSION < '1.9.3'
+    s.add_development_dependency "rake", "~> 10.0"
+  else
+    s.add_development_dependency "rake"
+  end
 end
