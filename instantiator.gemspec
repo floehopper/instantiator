@@ -24,4 +24,5 @@ Gem::Specification.new do |s|
   else
     s.add_development_dependency "rake"
   end
+  s.add_development_dependency "test-unit"
 end
